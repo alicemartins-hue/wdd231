@@ -50,13 +50,20 @@
                 <h2>Student Photo</h2>
                 <img src="images/alice-profile.webp" alt="Profile photo of the student Alice" width="220" height="auto">
 
-
-
-
             </section>
             <section class="certificate">
                 <h2>Web Certificate Courses</h2>
+                <div class="filters">
+                    <button onclick="filterCourses('All')">All Courses</button>
+                    <button onclick="filterCourses('WDD')">WDD Courses</button>
+                    <button onclick="filterCourses('CSE')">CSE Courses</button>
+                </div>
 
+                <div id="courses-container" class="course-cards"></div>
+
+                <div class="credits-total">
+                    Total Credits: <span id="total-credits">0</span>
+                </div>
 
             </section>
         </div>

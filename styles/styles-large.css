@@ -86,9 +86,43 @@ h1 {
 .certificate {
     grid-column-start: 1;
     grid-column-end: 3;
-    
+
 }
 
+.course-cards{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 12px 0;
+    background-color: var(--color);
+
+}
+
+.course-cards.completed {
+    border-color: #4CAF50;
+    background-color: #e9fbe9;
+}
+
+.filters button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #ddd;
+
+}
+
+.filters button:hover {
+    background-color: #ccc;
+}
+
+.credits-total {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 
 

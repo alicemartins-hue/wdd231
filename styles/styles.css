@@ -22,18 +22,14 @@
 
 #menu-button {
     font-size: 2rem;
-    background: var(--color-object3);
-    border: 3px solid var(--color-object2);
+    background: #333;
+    border: 3px solid #fff;
     border-radius: 10px;
     cursor: pointer;
     display: none;
-    color: var(--background);
+    color: #fff;
     margin-bottom: 25px;
     width: 100%;
-
 }
 
-header {
-    background-color: rgba(34, 34, 59, 0.208);
-}
 

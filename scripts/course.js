@@ -78,3 +78,39 @@ const courses = [
         completed: true
     }
 ]
+
+
+function displayCourses(filteredCourses) {
+    const container = document.getElementById('courses-container');
+    const creditDisplay = document.getElementById('total-credits');
+
+    container.innerHTML = '';
+
+    filteredCourses.forEach(course => {
+        const card = document.createElement('div');
+        card.className = 'course-card' + (course.completed ? ' completed' : '');
+        card.innerHTML = `
+            <h3>${course.subject} ${course.number}</h3>
+        `;
+        container.appendChild(card);
+    
+    });
+
+    const totalCredits = filteredCourses.reduce((sum, course) => sum + course.credits, 0);
+    creditDisplay.textContent = totalCredits;
+    
+}
+
+function filterCourses(subject) {
+    let filtered;
+    if (subject === 'All') {
+        filtered = courses;
+    } else {
+        filtered = courses.filter(course => course.subject === subject);
+
+    }
+    displayCourses(filtered);
+
+}
+
+filterCourses('All');

@@ -1,0 +1,28 @@
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    padding: 20px 20px 5px 20px;
+
+}
+
+.logo{ 
+    display: flex;
+}
+.logo span {
+    align-self: center;
+
+}
+
+span{
+}
+
+main{
+
+}
+
+footer{
+
+}

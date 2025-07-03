@@ -13,16 +13,43 @@ header {
 }
 .logo span {
     align-self: center;
-
-}
-
-span{
 }
 
 main{
 
 }
 
-footer{
 
+
+
+
+
+footer{
+    background-color: rgba(34, 34, 59, 0.208);
+    
+}
+
+.final {
+    padding:10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.social {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+#creditos{
+    padding-top: 5px;
+    margin: 0%;
+}
+
+#lastModified {
+    font-size: small;
+    margin: 0%;
+    padding: 5px;
 }

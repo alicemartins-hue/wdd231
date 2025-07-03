@@ -17,6 +17,16 @@
     nav ul.show {
         display: flex;
     }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grade{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 #menu-button {

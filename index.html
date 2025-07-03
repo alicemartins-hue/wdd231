@@ -7,23 +7,32 @@
     <meta name="description" content="Home Page | WDD231 | Alice Candido Martins">
     <title>Home Page | WDD 231 | Alice Candido Martins</title>
 
-    <link ref="stylesheet" href="styles/normalize.css">
-    <link ref="stylesheet" href="styles/styles.css">
-    <link ref="stylesheet" href="styles/styles-large.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
 
     
 </head>
 <body>
     <header>
-        <img src="images/flower.svg" alt="icone" width="80" height="60">
-        <span>Alice Candido Martins</span>
+        <div class="logo">
+            <img src="images/flower.svg" alt="site logo" width="80" height="60">
+            <span>Alice Candido Martins</span>
+            <button id="menu-button" aria-label="open menu">☰</button>
+        </div>
+        <button id="menu-button" aria-label="open menu">☰</button>
 
-        <nav>
+        <nav id="nav-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="">Chamber</a></li>
-                <li><a href="">Final</ahref></li>
+                <li><a href="">Final</a></li>
                 <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a></li>
             </ul>
         </nav>
@@ -42,7 +51,18 @@
         </section>
     </main>
     <footer>
+        <p> &copy;<span id="currentYear"></span> ⚜ Alice Candido Martins ⚜ Portugal </p>
+        <p id="lastModified"></p>
 
+        <a href="">
+            <img src=" " alt="Github icon" widht="20" height="20">
+        </a>
+        <a href="">
+            <img src=" " alt="LinkedIn icon" widht="20" height="20">
+        </a>
+        <a href="">
+            <img src=" " alt="Instagram icon" widht="20" height="20">
+        </a>
     </footer>
 </body>
 </html>

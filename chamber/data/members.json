@@ -1,0 +1,60 @@
+
+[
+    {
+        "name":"Galp",
+        "address" : "Avenida da Índia, 8, Lisboa" ,
+        "phoneNumber" : "(+351) 217 242 500" ,
+        "websiteURL":"www.galp.com" ,
+        "image": "images/logo-galp-new.webp",
+        "membership": "gold" 
+    },
+    {
+        "name": "EDP - Energias de Portugal",
+        "address": "Avenida 24 de Julho, 12A, Lisboa",
+        "phoneNumber": "(+351) 911 955 282",
+        "websiteURL": "www.edp.pt",
+        "image": "https://www.edp.pt/media/3996/thumb_edp_generico.png" ,
+        "membership": "silver"
+    },
+    {
+        "name": "Continente",
+        "address": "Rua João Mendonça, 505, Matosinhos",
+        "phoneNumber": "(+351) 218 247 247",
+        "websiteURL": "www.continente.pt" ,
+        "image": "images/continente.webp",
+        "membership": "diamond"
+    },
+    {
+        "name": "Pingo Doce",
+        "address": "Rua Dom Afonso, Barcelos",
+        "phoneNumber": "(+351) 938 044 366",
+        "websiteURL": "www.pingodoce.pt" ,
+        "image": "https://www.pingodoce.pt/wp-content/themes/pingodoce/library/images/v2/logo-pd-2x.png",
+        "membership": "gold"
+    },
+    {
+        "name": "Volkswagen",
+        "address": "Quinta do Anjo, Setúbal",
+        "phoneNumber": "(+351) 502 616 695",
+        "websiteURL": "www.volkswagenautoeuropa.pt",
+        "image": "https://licensinginternational.org/wp-content/uploads/2024/05/V-W.jpg",
+        "membership": "silver"
+    },
+    {
+        "name": "NOS",
+        "address": " Rua Actor António Silva, 9, Lisboa",
+        "phoneNumber": "(+351) 931 699 000",
+        "websiteURL": "www.nos.pt",
+        "image": "images/logo-nos.svg",
+        "membership": "silver"
+    },
+    {
+        "name": "WORTEN",
+        "address": "Quinta dos Congregados, Braga Parque",
+        "phoneNumber": "(+351) 210 155 222",
+        "websiteURL": "www.worten.pt",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Worten_logo_%282016%29.svg",
+        "membership": "diamond"
+    }
+
+]

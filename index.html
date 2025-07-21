@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alice Candido Martins">
+    <meta name="description" content="Home Page | WDD231 | Alice Candido Martins">
+    <title>Home Page | WDD 231 | Alice Candido Martins</title>
+
+    <meta property="og:title" content="Home Page | WDD231 |">
+    <meta property="og:description" content="A student home page of the course WDD231 of Alice Candido Martins">
+    <meta property="og:image" content="https://alicemartins-hue.github.io/wdd231/images/img.jpg">
+    <meta property="og:url" content="https://alicemartins-hue.github.io/wdd231/index.html">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg" alt="site logo" width="80" height="60">
+            <span>Alice Candido Martins</span>
+        </div>
+        <button id="menu-button" aria-label="open menu">☰</button>
+
+        <nav id="nav-menu" class="hidden">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Chamber</a></li>
+                <li><a href="">Final</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="grade">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus distinctio tempore sapiente iure vero temporibus eum dolor facilis ipsa obcaecati quam molestias ipsum tempora voluptates beatae blanditiis enim, officiis a. Id laudantium inventore odit sunt? Laboriosam doloremque tempora nihil ducimus!</p>
+
+
+            </section>
+            <section class="photo">
+                <h2>Student Photo</h2>
+                <img src="images/alice-profile.webp" alt="my face" width="220" height="220" >
+
+            </section>
+        </div>
+        <div class="gradeB">
+            <section class="certificate">
+                <h2>Web Certificate Courses</h2>
+                <div class="filters">
+                    <button onclick="filterCourses('All')">All Courses</button>
+                    <button onclick="filterCourses('WDD')">WDD Courses</button>
+                    <button onclick="filterCourses('CSE')">CSE Courses</button>
+                </div>
+
+                <div id="courses-container" class="course-cards"></div>
+
+                <div class="credits-total">
+                    Total Credits: <span id="total-credits">0</span>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/alicemartins-hue">
+                <img src="images/github.svg" alt="Github icon" >
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.svg" alt="LinkedIn icon" >
+            </a>
+            <a href="https://www.instagram.com/c.alice.m/">
+                <img src="images/instagram.svg" alt="Instagram icon" >
+            </a>
+        </div>
+        <div class="final">
+            <p id="creditos"> &copy;<span id="currentYear"></span> ⚜ Alice Candido Martins ⚜ Portugal </p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+</body>
+</html>

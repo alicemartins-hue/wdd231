@@ -1,0 +1,48 @@
+
+
+body{
+    color: rgb(1, 18, 79);
+    font-family: "Roboto";
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.342);
+    padding: 20px;
+}
+
+.card{
+    border: 4px solid rgba(128, 128, 128, 0.534);
+    border-radius: 10px;
+    width: 200px;
+    justify-self: center;
+    background-color: rgba(128, 128, 128, 0.468);
+    box-shadow: 14px 15px 25px 1px rgba(88, 88, 91, 0.438);
+    margin-bottom: 10px;
+}
+
+.card h2{
+    color: rgb(1, 18, 79); 
+    margin : .3rem 0;
+}
+figcaption {
+    text-transform: capitalize;
+    color:rgb(1, 18, 79);
+    margin: .3rem 0;
+}
+
+#current-temp{
+    font-size: 2rem;
+    color: rgba(3, 38, 165, 0.677);
+    margin: .3rem 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}

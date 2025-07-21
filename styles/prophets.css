@@ -1,0 +1,49 @@
+:root{
+    --color:rgb(56, 112, 243);
+}
+
+
+body {
+    color:rgb(10, 10, 111);
+}
+
+h1 {
+    color: var(--color);
+    text-align: center;
+}
+
+#cards {
+    box-shadow: 2px 2px 45px grey;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+div section {
+    background-color: rgba(56, 112, 243, 0.384);
+    text-align: center;
+    border: 2px solid rgb(10, 10, 111);
+    margin: 18px;
+    padding: 28px;
+    
+    
+}
+
+div section img{
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 25px 11px rgba(56, 112, 243, 0.384);
+    max-width: 100%;
+    height: auto;
+    display:block;
+    justify-self: center;
+    margin: 40px;
+
+    
+}
+
+footer {
+    text-align: center;
+}

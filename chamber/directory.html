@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alice Candido Martins">
+    <meta name="description" content="Chamber of commerce | WDD231 | Alice Candido Martins">
+    <meta property="og:title" content="Guimarães Chamber of Commerce">
+    <meta property="og:description" content="Chamber of Commerce assignment Page | WDD231 | Alice Candido Martins">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <title>Guimarães Chamber of Commerce</title>
+
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/buttonAndDate.js" defer></script>
+    <script src="scripts/gridListMenu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <img src="images/bank.svg"  alt="logo icon" width="24" height="24">
+        <span>Guimarães Chamber of Commerce</span>
+        <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
+
+        <nav id="nav-menu" class="hidden" aria-label="navigation">
+            <ul>
+                <li><a href="#" >Home</a></li>
+                <li><a href="#" >Directory</a></li>
+                <li><a href="#" >Join</a></li>
+                <li><a href="#" >Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Welcome to Guimarães Commerce</h1>
+                <p>Together we drive growth, innovation, and the future of our region.</p>
+
+            </div>
+        </div>
+ 
+        <div class="home">
+            <div class="events">
+                <h2>Events</h2>
+                <div class="newEvents">
+                    
+                </div>
+            </div>
+            <div class="weather">
+                <h2>Weather</h2>
+                    <div class="card">
+                        <h2 id="town"></h2>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                        <p id="current-temp"></p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="gridListMenu">
+            <p>Choose how you'd like to view the directory:</p>
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <article class="grid">
+            <div id="members-container"></div>
+        </article>
+        
+
+    </main>
+    <footer>
+        <div class="final">
+            <p id="creditos"> &copy;<span id="currentYear"></span> ⚜ Alice Candido Martins ⚜ Portugal </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

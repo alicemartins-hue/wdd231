@@ -11,34 +11,36 @@
     <meta property="og:url" content="https://alicemartins-hue.github.io/wdd231/chamber/directory.html">
 
     <title>Directory - Guimarães Chamber of Commerce</title>
+<link rel="stylesheet" href="styles/chamber-large.css">
+<link rel="stylesheet" href="styles/chamber.css">
+<link rel="stylesheet" href="styles/chamber-small.css">
+<script src="scripts/chamber.js" defer></script>
+<script src="scripts/button.js" defer></script>
+<script src="scripts/grid-list-menu.js" defer></script>
+<script src="scripts/weather.js" defer></script>
 
-    <link rel="stylesheet" href="styles/chamber-large.css">
-    <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/chamber-small.css">
-    <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/button.js" defer></script>
-    <script src="scripts/grid-list-menu.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+<link rel="icon" href="images/icon.png">
 
 
 </head>
+
 <body>
     <header>
-        <img src="images/bank.svg"  alt="logo icon" width="24" height="24">
+        <img src="images/bank.svg" alt="logo icon" width="24" height="24">
         <span>Guimarães Chamber of Commerce</span>
         <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
 
         <nav id="nav-menu" class="hidden" aria-label="navigation">
             <ul>
-                <li><a href="#" >Home</a></li>
-                <li><a href="https://alicemartins-hue.github.io/wdd231/chamber/directory.html" >Directory</a></li>
-                <li><a href="#" >Join</a></li>
-                <li><a href="#" >Discover</a></li>
+                <li><a href="https://alicemartins-hue.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://alicemartins-hue.github.io/wdd231/chamber/directory.html" class="ativo">Directory</a></li>
+                <li><a href="https://alicemartins-hue.github.io/wdd231/chamber/join.html">Join</a></li>
+                <li><a href="https://alicemartins-hue.github.io/wdd231/chamber/discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
@@ -50,23 +52,24 @@
 
             </div>
         </div>
- 
+
         <div class="home">
             <div class="events">
                 <h2>Events</h2>
-                <div class="newEvents">
-                    
+                <h3>Spotlight Members</h3>
+                <div class="spotlight-container" id="spotlights">
                 </div>
             </div>
             <div class="weather">
                 <h2>Weather</h2>
-                    <div class="card">
-                        <h2 id="town"></h2>
-                        <figure id="container">
-                            <figcaption></figcaption>
-                        </figure>
-                        <p id="current-temp"></p>
-                    </div>
+                <div class="card">
+                    <h2 id="town"></h2>
+                    <figure id="container">
+
+                        <figcaption></figcaption>
+                    </figure>
+                    <p id="current-temp"></p>
+                </div>
             </div>
         </div>
 
@@ -78,7 +81,7 @@
         <article class="grid">
             <div id="members-container"></div>
         </article>
-        
+
 
     </main>
     <footer>
@@ -88,4 +91,5 @@
         </div>
     </footer>
 </body>
+
 </html>

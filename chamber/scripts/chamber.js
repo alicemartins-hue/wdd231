@@ -42,7 +42,7 @@ function renderSpotlights(members) {
     const filtered = members.filter(m =>
         m.membership === "gold" || m.membership === "silver"
     );
-    const quantity = Math.floor(Math.random() * 2) + 3;
+    const quantity = Math.floor(Math.random() * 2) + 2;
     const selected = shuffle(filtered).slice(0, quantity);
 
     selected.forEach((company) => {
@@ -50,7 +50,7 @@ function renderSpotlights(members) {
         card.classList.add('member-card');
 
         card.innerHTML = `
-            <h3>${company.name}</h3>
+            <h4>${company.name}</h4>
             <img src="${company.image}" alt="Logo of the ${company.name}">
             <p><strong>Address:</strong><br> ${company.address}</p>
             <p><strong>Phone Number:</strong><br> ${company.phoneNumber}</p>

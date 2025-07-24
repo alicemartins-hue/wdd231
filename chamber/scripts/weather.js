@@ -1,12 +1,10 @@
 
 const town = document.querySelector('#town');
 const currentTemp = document.querySelector('#current-temp');
-
 const captionDesc = document.querySelector('figcaption');
 
 const img = document.createElement('img');
-img.id = 'weather-icon';
-document.getElementById('imagem-container').appendChild(img);
+document.getElementById('container').appendChild(img);
 
 
 
@@ -38,7 +36,7 @@ function displayResults(data) {
     captionDesc.innerHTML = data.weather[0].description
     currentTemp.innerHTML = `${data.main.temp}&deg;C`
     const icon = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
-    weatherIcon.setAttribute('src', icon)
-    weatherIcon.setAttribute('alt', data.weather[0].description)
+    img.setAttribute('src', icon)
+    img.setAttribute('alt', data.weather[0].description)
 }
 

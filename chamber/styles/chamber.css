@@ -114,15 +114,8 @@ body, html{
 
 }
 
-.newEvents{
+.spotlights {
     background-color: #025F5F;
-    width: 400px;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
-    border: 1px solid rgba(128, 128, 128, 0);
-    border-radius: 16px;
 }
 
 .home .weather {

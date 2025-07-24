@@ -35,8 +35,9 @@
 
 
     a:hover {
-        text-decoration: underline;
-        color: #025F5F;
-        
+        border-radius: 16px;
+        padding: 10px 40px 11px 40px;
+        border-top: 2px solid #a9d9d0c7;
+        background: linear-gradient(to bottom, #a9d9d0c7 10%, #fffcfc 80%);
     }
 }

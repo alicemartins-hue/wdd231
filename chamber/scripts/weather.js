@@ -1,8 +1,14 @@
 
 const town = document.querySelector('#town');
 const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
+
 const captionDesc = document.querySelector('figcaption');
+
+const img = document.createElement('img');
+img.id = 'weather-icon';
+document.getElementById('imagem-container').appendChild(img);
+
+
 
 const myKey = '8fa091026a133dda5621ccd86366e719';
 const lon = '-8.296';
@@ -35,3 +41,4 @@ function displayResults(data) {
     weatherIcon.setAttribute('src', icon)
     weatherIcon.setAttribute('alt', data.weather[0].description)
 }
+

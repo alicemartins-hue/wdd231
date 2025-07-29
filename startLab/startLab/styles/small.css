@@ -1,2 +1,18 @@
 *{box-sizing: border-box;}
 
+#openButton{
+    background-color: rgba(14, 14, 103, 0.638);
+}
+
+#closeButton {
+    background-color: rgba(14, 96, 103, 0.638);
+}
+
+#dialogButton{
+    background-color: rgba(102, 14, 103, 0.638);
+}
+
+::backdrop{
+    background-color: rgba(0, 0, 0, 0.497);
+}
+

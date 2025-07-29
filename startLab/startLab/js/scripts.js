@@ -1,6 +1,6 @@
-const openButton = document.getElementbyId('openButton');
-const dialogBox = document.getElementbyId('dialogBox');
-const closeButton = document.getElementbyId('closeButton');
+const openButton = document.querySelector("#openButton");
+const dialogBox = document.querySelector("#dialogBox");
+const closeButton = document.querySelector("#closeButton");
 
 openButton.addEventListener("click", () => {
     dialogBox.showModal();

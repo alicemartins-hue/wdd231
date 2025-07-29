@@ -92,6 +92,9 @@ function displayCourses(filteredCourses) {
         card.innerHTML = `
             <h3>${course.subject} ${course.number}</h3>
         `;
+        card.addEventListener('click', () => {
+            dialogCardsDescription(course);
+        });
         container.appendChild(card);
     
     });
@@ -114,3 +117,30 @@ function filterCourses(subject) {
 }
 
 filterCourses('All');
+
+
+
+const modal = document.getElementById('course-details');
+function dialogCardsDescription(course) {
+    modal.innerHTML = '';
+    modal.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>${course.technology.join(', ')}</p>   
+    `;
+    modal.showModal();
+    
+    closeModal.addEventListener("click", () => {
+        modal.close();
+    });
+}
+
+
+
+
+
+

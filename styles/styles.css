@@ -193,8 +193,14 @@ footer {
     }
     #menu-button {
         display: block;
-        text-align: right;
-        padding-right: 30px;
+        text-align: center;
+        align-self: center;    
+    }
+
+    .logo {
+        display: grid;
+        padding: 20px;
+        grid-template-columns: .2fr 3fr .5fr;
     }
     
 }

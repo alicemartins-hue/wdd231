@@ -18,8 +18,7 @@
 
     <script src="scripts/chamber.js" defer></script>
     <script src="scripts/button.js" defer></script>
-    <script src="scripts/grid-list-menu.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +49,64 @@
         </nav>
     </header>
     <main>
+        <div class="base">
+            <h2>Join Us!</h2>
+            <h3>If you want to be part of a group that make you commerce growl, choose to be part of us.</h3>
+            <p>maybe a calling to do the form</p>
+            <div class="backgroundForm">
+                <form method="get" action="thank.html">
+                    <label title="Enter your first name">
+                        First Name:
+                        <input type="text" name="firstName" required title="First Name" autocomplete="given-name">
+                    </label>
 
+                    <label title="Enter your last name">
+                        Last Name:
+                        <input type="text" name="lastName" required title="Last Name" autocomplete="family-name">
+                    </label>
+
+                    <label title="Enter your organizational title">
+                        Organizational Title:
+                        <input type="text" name="orgTitle" title="Your Organizational Title" autocomplete="organization-title" pattern="[A-Za-a\s\-]{7,}" placeholder="Manager">
+                    </label>
+
+                    <label title="Enter your email">
+                        Email:
+                        <input type="email" required name="email" title="Your email" autocomplete="email" placeholder="email@gmail.com">
+                    </label>
+
+                    <label title="Enter your phone number">
+                        Phone Number:
+                        <input type="tel" required name="mobile" title="Your phone number" autocomplete="tel" placeholder="+351">
+                    </label>
+
+                    <label title="Enter the business name">
+                        Organization name:
+                        <input type="text" required name="OrgName" autocomplete="organization">
+                    </label>
+
+                    <label title="Choose a membership level">
+                        Membership level:
+                        <select name="membershipLevel" title="Membership Level">
+                            <option value="" disabled selected>Choose one...</option>
+                            <option value="np">NP Membership (Free)</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                            <option value="diamond">Diamond Membership</option>
+                        </select>
+                    </label>
+
+                    <label title="Organization Description">
+                        Organization Description:
+                        <textarea title='Organization Description' name="OrgDescription" rows="4" cols="30"></textarea>
+                    </label>
+
+                    <input type="hidden" name="timestamp" id="timestamp">
+
+                    <input type="submit" value="Join Now">
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="final">

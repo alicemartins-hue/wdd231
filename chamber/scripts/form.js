@@ -47,6 +47,8 @@ function memberCards() {
         const card = document.createElement("div");
         card.classList.add("cardcontainer");
 
+        card.style.setProperty('--delay', `${i * 0.2}s`);
+
         const title = document.createElement("h4");
         title.textContent = `${member.name} Membership Level`;
 

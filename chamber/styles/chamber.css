@@ -606,3 +606,12 @@ textarea{
     cursor: pointer;
 }
 
+.thankyou {
+    color:#013131;
+    padding: 1rem;
+}
+#results p{
+    color:#013131;
+    padding: .5rem;
+    padding-left: 2rem;
+}

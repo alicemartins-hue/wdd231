@@ -52,62 +52,66 @@
         <div class="joinBase">
             <h2>Join Us!</h2>
             <h3>If you want to be part of a group that make you commerce growl, choose to be part of us.</h3>
-            <p>maybe a calling to do the form</p>
-            <div class="JoinBackgroundForm">
-                <form method="get" action="thank.html">
-                    <label title="Enter your first name">
-                        First Name:
-                        <input type="text" name="firstName" required title="First Name" autocomplete="given-name">
-                    </label>
+                <form class="form" method="get" action="thank.html">
+                    <fieldset>
+                        <legend>Aplicant Information</legend>
+                        <label title="Enter your first name">
+                            First Name:
+                            <input type="text" name="firstName" required title="First Name" autocomplete="given-name">
+                        </label>
+                    
+                        <label title="Enter your last name">
+                            Last Name:
+                            <input type="text" name="lastName" required title="Last Name" autocomplete="family-name">
+                        </label>
 
-                    <label title="Enter your last name">
-                        Last Name:
-                        <input type="text" name="lastName" required title="Last Name" autocomplete="family-name">
-                    </label>
+                        <label title="Enter your email">
+                            Email:
+                            <input type="email" required name="email" title="Your email" autocomplete="email" placeholder="email@gmail.com">
+                        </label>
+                        
+                        <label title="Enter your phone number">
+                            Phone Number:
+                            <input type="tel" required name="mobile" title="Your phone number" autocomplete="tel" placeholder="+351">
+                        </label>
+                    </fieldset>
 
-                    <label title="Enter your organizational title">
-                        Organizational Title:
-                        <input type="text" name="orgTitle" title="Your Organizational Title" autocomplete="organization-title" pattern="[A-Za-a\s\-]{7,}" placeholder="Manager">
-                    </label>
+                    <fieldset>
 
-                    <label title="Enter your email">
-                        Email:
-                        <input type="email" required name="email" title="Your email" autocomplete="email" placeholder="email@gmail.com">
-                    </label>
+                        <legend>Business Information</legend>
+                        <label title="Enter your organizational title">
+                            Organizational Title:
+                            <input type="text" name="orgTitle" title="Your Organizational Title" autocomplete="organization" pattern="[A-Za-z\s\-]{7,}" placeholder="Manager">
+                        </label>
+                        <label title="Enter the business name">
+                            Organization name:
+                            <input type="text" required name="OrgName" autocomplete="organization">
+                        </label>
+                        
+                        <label title="Choose a membership level">
+                            Membership level:
+                            <select name="membershipLevel" title="Membership Level">
+                                <option value="" disabled selected>Choose one...</option>
+                                <option value="np">NP Membership (Free)</option>
+                                <option value="silver">Silver Membership</option>
+                                <option value="gold">Gold Membership</option>
+                                <option value="diamond">Diamond Membership</option>
+                            </select>
+                        </label>
+                        
+                        <label title="Organization Description">
+                            Organization Description:
+                            <textarea title='Organization Description' name="OrgDescription" rows="4" cols="30"></textarea>
+                        </label>
+                    </fieldset>
 
-                    <label title="Enter your phone number">
-                        Phone Number:
-                        <input type="tel" required name="mobile" title="Your phone number" autocomplete="tel" placeholder="+351">
-                    </label>
-
-                    <label title="Enter the business name">
-                        Organization name:
-                        <input type="text" required name="OrgName" autocomplete="organization">
-                    </label>
-
-                    <label title="Choose a membership level">
-                        Membership level:
-                        <select name="membershipLevel" title="Membership Level">
-                            <option value="" disabled selected>Choose one...</option>
-                            <option value="np">NP Membership (Free)</option>
-                            <option value="silver">Silver Membership</option>
-                            <option value="gold">Gold Membership</option>
-                            <option value="diamond">Diamond Membership</option>
-                        </select>
-                    </label>
-
-                    <label title="Organization Description">
-                        Organization Description:
-                        <textarea title='Organization Description' name="OrgDescription" rows="4" cols="30"></textarea>
-                    </label>
 
                     <input type="hidden" name="timestamp" id="timestamp">
 
-                    <input type="submit" value="Join Now">
+                    <input type="submit" value="Join Us">
                 </form>
-            </div>
+            <div id="membershipCards"></div>
         </div>
-        <div id="membershipCards"></div>
     </main>
     <footer>
         <div class="final">

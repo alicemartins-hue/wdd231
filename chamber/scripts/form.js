@@ -50,14 +50,14 @@ function memberCards() {
         const title = document.createElement("h4");
         title.textContent = `${member.name} Membership Level`;
 
-        const buttom = document.createElement("button");
-        buttom.textContent = "Click Here";
-        buttom.addEventListener("click", () => {
+        const button = document.createElement("button");
+        button.textContent = "Click Here";
+        button.addEventListener("click", () => {
             document.getElementById(member.id).style.display = "block";
         });
 
         card.appendChild(title);
-        card.appendChild(buttom);
+        card.appendChild(button);
         cardContainer.appendChild(card);
 
         const modal = document.createElement("div");
@@ -74,7 +74,7 @@ function memberCards() {
             modal.style.display = "none";
         });
 
-        const modalTitle = document.createElement("3");
+        const modalTitle = document.createElement("h3");
         modalTitle.textContent = `${member.name} Membership`;
 
         const ul = document.createElement("ul");

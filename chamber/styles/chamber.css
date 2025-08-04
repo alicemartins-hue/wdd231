@@ -407,17 +407,22 @@ footer{
 
 .joinBase{
     color: #013131;
-    padding: 2rem 10px;
+    padding: 2rem 1rem;
     background-color: #0131314a;
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.joinBase h2{
+.join{
+    grid-column: 1/3;
+}
+
+.join h3{
     padding: 0 2rem;
     text-align: center;
 }
 
-.joinBase h3{
+.join h4{
     padding: 1rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -430,7 +435,8 @@ footer{
     background-color: aliceblue;
     border: 2px transparent solid;
     border-radius: 24px;
-    gap: 2rem;    
+    gap: 2rem; 
+    grid-column: 1/2;   
 }
 
 .form label{
@@ -484,6 +490,10 @@ footer{
     cursor: pointer;
 }
 
+form h2{
+    text-align: center;
+}
+
 select{
     max-width: 19rem;
     padding: 5px;
@@ -497,5 +507,51 @@ textarea{
     padding: .5rem .8rem;
 }
 
+#membershipCards{
+    padding: 2rem;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.cardcontainer{
+    text-align: center;
+    margin: 2rem;
+    padding: .5rem;
+    border: 2px solid;
+    background: #F0F0F3;
+    filter: drop-shadow(-10px -10px);
+    border-radius: 5px;
+}
+
+.cardcontainer h3{
+    padding: .3rem;
+}
+
+.cardcontainer button{
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: .3rem;
+    margin-top: .5rem;
+    background-image: linear-gradient(#022020e3, #025f5f8b);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.cardcontainer button:hover{
+    animation: pulse 0.4s ease-in-out;
+}
 
 

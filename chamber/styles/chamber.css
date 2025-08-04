@@ -618,7 +618,7 @@ textarea{
     padding-left: 2rem;
 }
 
-@media only screen and (max-width: 45rem) {
+@media only screen and (max-width: 44rem) {
     .joinBase {
         display: flex;
         flex-direction: column;

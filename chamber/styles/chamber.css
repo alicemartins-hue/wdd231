@@ -55,6 +55,7 @@
     a:hover {
         color: #025F5F;
     }
+
 }
 
 
@@ -64,7 +65,6 @@
     .hidden {
         display: none;
     }
-
 
 }
 
@@ -614,4 +614,11 @@ textarea{
     color:#013131;
     padding: .5rem;
     padding-left: 2rem;
+}
+
+@media only screen and (max-width: 38rem) {
+    .joinBase {
+        display: flex;
+        flex-direction: column;
+    }
 }

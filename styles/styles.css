@@ -134,14 +134,6 @@ h1 {
 }
 
 
-.social {
-    padding: 20px;
-}
-
-.social img {
-    width: 50px;
-    height: 35px;
-}
 
 
 footer {
@@ -161,6 +153,11 @@ footer {
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    padding: 20px;
+}
+.social img {
+    width: 50px;
+    height: 35px;
 }
 
 #creditos {

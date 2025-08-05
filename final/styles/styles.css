@@ -3,6 +3,7 @@ body{
     background-color: #fff6f2;
     color: #534B4F;
     font-family: "Montserrat", "sans-serif";
+    background-image: linear-gradient(#534b4f3d, rgba(255, 255, 255, 0.8));
 }
 h2, h1, footer{
     color: #5C0000;

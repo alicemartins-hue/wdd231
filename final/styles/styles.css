@@ -1,6 +1,12 @@
 
+body{
+    background-color: #fff6f2;
+    color: #5C0000;
+}
 
-
+footer {
+    background-color: #d2b48c;
+}
 
 .final{
     text-align: center;

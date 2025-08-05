@@ -1,11 +1,16 @@
 
 body{
     background-color: #fff6f2;
+    color: #534B4F;
+    font-family: "Montserrat", "sans-serif";
+}
+h2, h1, footer{
     color: #5C0000;
+    font-family: "Libertinus Serif", serif;
 }
 
 footer {
-    background-color: #d2b48c;
+    background-color: #534b4f37;
 }
 
 .final{

@@ -4,21 +4,21 @@ export const places = [
         "address": "Rua Conde Dom Henrique, 4800‑412 Guimarães, Portugal",
         "cost": "€2–5 for adults; free/reduced for children and seniors",
         "description": "A 10th-century fortress considered the birthplace of Portugal, featuring towers, ramparts, and panoramic city views.",
-        "photo_url": "https://www.freepik.com/premium-photo/guimaraes-castle-portugal_39329909.htm"
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Guimaraes_Castle.jpg"
     },
     {
         "name": "Palace of the Dukes of Braganza (Paço dos Duques de Bragança)",
         "address": "Rua Conde Dom Henrique 3, 4800‑412 Guimarães, Portugal",
         "cost": "€5 per adult; free for children; guided tours available",
         "description": "A restored 15th-century Gothic–Renaissance palace showcasing royal halls, tapestries, and period furnishings.",
-        "photo_url": "https://www.portugal.com/location/palace-of-the-dukes-of-braganza/"
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pa%C3%A7o_dos_Duques_de_Bragan%C3%A7a.jpg"
     },
     {
         "name": "Historic Centre & Largo da Oliveira",
         "address": "Centro Histórico, Guimarães (Largo da Oliveira square)",
         "cost": "Free",
         "description": "UNESCO-listed medieval streets and plazas, artisan shops, cafés, and the iconic Oliveira Square with its olive tree monument.",
-        "photo_url": "https://www.istockphoto.com/photo/largo-da-oliveira-guimaraes-portugal-gm472168368-35468832"
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Largo_da_Oliveira_Guimaraes.jpg"
     },
     {
         "name": "Penha Cable Car (Teleférico da Penha)",
@@ -39,7 +39,7 @@ export const places = [
         "address": "Rua Alfredo Guimarães, 4810‑251 Guimarães, Portugal",
         "cost": "€3; free for children under 12; discounts available",
         "description": "A museum in a former monastery featuring medieval religious art, sculptures, and liturgical treasures.",
-        "photo_url": "https://www.alamy.com/stock-photo-alberto-sampaio-museum-guimaraes.html"
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Museu_de_Alberto_Sampaio_Guimaraes.jpg"
     },
     {
         "name": "Church of Nossa Senhora da Oliveira",

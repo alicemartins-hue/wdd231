@@ -58,7 +58,7 @@
         grid-template-areas:
             "photograph name"
             "photograph description"
-            "photograph location";
+            "buttom location ";
             
     }
 
@@ -81,6 +81,12 @@
     
     #discover div img:hover {
         animation: pulse .4s ease forwards;
+    
+    }
+
+    #discover div button:hover {
+        text-decoration: underline;
+        animation: pulse 0.4s ease forwards;
     
     }
 }

@@ -562,7 +562,8 @@ textarea{
     "name"
     "photograph"
     "description"
-    "location";
+    "location"
+    "buttom";
 
 }
 
@@ -578,6 +579,7 @@ textarea{
     border-radius: 150px 150px;
     margin: 10px;
     align-self: center;
+    justify-self: center;
     
         
 }
@@ -590,6 +592,26 @@ textarea{
 #discover div address {
     margin: 1rem 10px;
     grid-area: location;
+}
+
+#discover div button{
+    margin: 1rem 10px;
+    grid-area: buttom;
+    background-color: #A9D9D0;
+    border: none;
+    padding: .3rem;
+    width: 40%;
+    border-radius: 16px;
+    justify-self: center;
+    color:#013131;
+    cursor: pointer;
+    box-shadow: 0 3px 10px #01313168;
+}
+
+#discover div button:hover{
+    text-decoration: underline;
+    animation: pulse 0.4s ease forwards;
+
 }
 
 .discHeading {

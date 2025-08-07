@@ -16,7 +16,7 @@ function displayItems(places) {
         thetitle.innerText = place.name
         thecard.appendChild(thetitle)
 
-        const theaddress = document.createElement('p')
+        const theaddress = document.createElement('address')
         theaddress.innerText = place.address
         thecard.appendChild(theaddress)
 

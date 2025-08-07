@@ -625,3 +625,65 @@ textarea{
     }
 }
 
+#discover div{
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photograph"
+    "description"
+    "location";
+
+}
+
+#discover div h2{
+    margin: 1rem 10px;
+    grid-area: name;
+
+}
+
+#discover div img {
+    width: 100%;
+    grid-area: photograph;
+
+}
+
+#discover div p{
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+#discover div address{
+    margin: 1rem 10px;
+    grid-area: location;
+}
+
+/*medium*/
+@media only screen and (min-width: 38rem) {
+    #discover div {
+
+            grid-template-areas:                
+            "photograph name"
+            "photograph description"
+            "photograph location";
+    }
+    
+    #discover div img {
+        width: 300px;
+    
+    }
+}
+
+/*Large*/
+@media only screen and (min-width: 64rem) {
+    #discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

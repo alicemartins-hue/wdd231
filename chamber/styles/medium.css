@@ -12,12 +12,6 @@
         border-radius: 16px;
     }
 
-    .ativo:hover {
-        border-top: 2px solid #a9d9d0c7;
-        background: linear-gradient(to bottom, #a9d9d0c7 10%, #fffcfc 80%);
-
-    }
-    
     .hamburguer {
         display: none;
     }
@@ -45,7 +39,6 @@
         color: #0D0D0D;
     
     }
-    
     
     nav ul li a:hover {
         border-radius: 16px;

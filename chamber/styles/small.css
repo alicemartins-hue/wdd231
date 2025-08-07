@@ -2,6 +2,24 @@
     .hidden {
         display: none;
     }
+
+    nav{
+        display: flex;
+        flex-direction: column; 
+        color:#025F5F;
+
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+        color: #025F5F;
+    }
+
+    a:hover {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
 }
 
 @media only screen and (max-width: 44rem) {

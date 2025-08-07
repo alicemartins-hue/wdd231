@@ -77,17 +77,25 @@ header span{
 
 }
 
+nav ul li{
+    margin: 1rem;
+    list-style-type: none;
+}
+
+nav ul{
+    margin: 2rem;
+}
+
+a{
+    font-size: large;
+    padding: 1rem;
+}
+
 .ativo{
     background-color: #a9d9d0c7;
     padding: 10px 40px 11px 40px;
     color: black;
     border-radius: 16px;
-}
-
-.ativo:hover{
-    border-top: 2px solid #a9d9d0c7;
-    background: linear-gradient(to bottom, #a9d9d0c7 10%, #fffcfc 80%);
-
 }
 
 

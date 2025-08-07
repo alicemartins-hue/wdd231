@@ -64,7 +64,24 @@
 
     #discover div img {
         width: 300px;
+        will-change: transform;
 
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: translateY(0) scale(1);
+        }
+    
+        100% {
+            transform: translateY(-10px) scale(1.05);
+        }
+    
+    }
+    
+    #discover div img:hover {
+        animation: pulse .4s ease forwards;
+    
     }
 }
 

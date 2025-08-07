@@ -562,9 +562,12 @@ textarea{
 #discover div img {
     width: 100%;
     grid-area: photograph;
+    border-radius: 15px 150px;
+    margin: 10px;
+    align-self: center;
         
 }
-        
+
 #discover div p {
     margin: 1rem 10px;
     grid-area: description;
@@ -579,4 +582,10 @@ textarea{
     text-align: center;
     padding: 1rem;
 }
+
+#sidebar {
+    text-align: right;
+}
+
+
 

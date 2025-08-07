@@ -663,27 +663,4 @@ textarea{
     grid-area: location;
 }
 
-/*medium*/
-@media only screen and (min-width: 38rem) {
-    #discover div {
-
-            grid-template-areas:                
-            "photograph name"
-            "photograph description"
-            "photograph location";
-    }
-    
-    #discover div img {
-        width: 300px;
-    
-    }
-}
-
-/*Large*/
-@media only screen and (min-width: 64rem) {
-    #discover {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
 

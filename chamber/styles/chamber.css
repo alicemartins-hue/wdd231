@@ -9,6 +9,25 @@
     padding: 0;
 }
 
+body,
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    color: var(--color-principal);
+
+}
+
+footer {
+    border-top: solid 1px #ddd;
+    background-color: #025f5f8b;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    color: black;
+
+}
+
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
@@ -30,19 +49,12 @@ header span{
     color: var(--color-principal);
 }
 
-header .hamburguer {
-    background: none;
-    color: var(--color-principal);
-    cursor: pointer;
-}
-
 .hamburguer{
     background: none;
     border: none;
     color: var(--color-principal);
     cursor: pointer;
     font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hamburguer::before{
@@ -51,13 +63,6 @@ header .hamburguer {
 
 .hamburguer.show::before{
     content: "\00D7";
-
-}
-
-body, html{
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
 
 }
 
@@ -148,7 +153,6 @@ body, html{
     
 }
 .spotlight-container .member-card{
-    border: 2px solid var(--color-principal);
     margin-top: 20px;
     border: none;
     border-radius: 10px;
@@ -190,12 +194,7 @@ body, html{
     text-align: center;
 }
 
-.card h2 {
-    color: rgb(1, 18, 79);
-    margin: .3rem 0;
-}
-
-figcaption {
+figcaption, .card h2 {
     text-transform: capitalize;
     color: rgb(1, 18, 79);
     margin: .3rem 0;
@@ -319,16 +318,6 @@ figcaption {
     width: 110px;
 }
 
-
-
-footer{
-    border-top: solid 1px #ddd;
-    background-color: #025f5f8b;
-    text-align: center;
-    padding: 2rem;
-    margin-top: 3rem;
-
-}
 
 
 .joinBase{
@@ -544,9 +533,13 @@ textarea{
     padding-left: 2rem;
 }
 
+#discover {
+    margin: 1rem 3rem;
+}
+
 #discover div{
     margin: 1rem 8px;
-    border: 1px solid #999;
+    border: 1px solid #01313167;
     background-color: #eee;
     border-radius: 8px;
     overflow: hidden;
@@ -559,3 +552,31 @@ textarea{
     "location";
 
 }
+
+#discover div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+        
+}
+        
+#discover div img {
+    width: 100%;
+    grid-area: photograph;
+        
+}
+        
+#discover div p {
+    margin: 1rem 10px;
+    grid-area: description;
+}
+        
+#discover div address {
+    margin: 1rem 10px;
+    grid-area: location;
+}
+
+.discHeading {
+    text-align: center;
+    padding: 1rem;
+}
+

@@ -28,6 +28,17 @@ footer {
 
 }
 
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.social img {
+    width: 50px;
+    height: 25px;
+}
+
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
@@ -535,9 +546,11 @@ textarea{
 
 #discover {
     margin: 1rem 3rem;
+    padding-bottom: 2rem;
 }
 
 #discover div{
+    padding: 10px 1rem;
     margin: 1rem 8px;
     border: 1px solid #01313167;
     background-color: #eee;
@@ -562,9 +575,10 @@ textarea{
 #discover div img {
     width: 100%;
     grid-area: photograph;
-    border-radius: 15px 150px;
+    border-radius: 150px 150px;
     margin: 10px;
     align-self: center;
+    
         
 }
 
@@ -580,12 +594,18 @@ textarea{
 
 .discHeading {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+    color: white;
 }
 
 #sidebar {
     text-align: right;
+    margin-right: 5rem;
+    color: white; 
 }
 
+#pageDiscover{
+    background-image: linear-gradient(#025F5F, white)
+}
 
 

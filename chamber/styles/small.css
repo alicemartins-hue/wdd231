@@ -1,0 +1,34 @@
+@media only screen and (max-width: 38rem) {
+    .hidden {
+        display: none;
+    }
+        #discover div h2 {
+            margin: 1rem 10px;
+            grid-area: name;
+    
+        }
+    
+        #discover div img {
+            width: 100%;
+            grid-area: photograph;
+    
+        }
+    
+        #discover div p {
+            margin: 1rem 10px;
+            grid-area: description;
+        }
+    
+        #discover div address {
+            margin: 1rem 10px;
+            grid-area: location;
+        }
+
+}
+
+@media only screen and (max-width: 44rem) {
+    .joinBase {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,7 +1,7 @@
 :root{
-    -destaque-color: #5C0000;
-    -font-color: #534B4F;
-    -background-footer: #534b4f37;
+    --destaque-color: #5C0000;
+    --font-color: #534B4F;
+    --background-footer: #534b4f37;
 }
 
 
@@ -9,9 +9,11 @@
 body{
     background-color: #fff6f2;
     color: #534B4F;
-    font-family: "Montserrat", "sans-serif";
-    background-image: linear-gradient(#534b4f3d, rgba(255, 255, 255, 0.8));
+    margin: 0;
+    font-family: 'Montserrat', 'sans-serif';
+
 }
+
 h2, h1, footer{
     color: #5C0000;
     font-family: "Libertinus Serif", serif;
@@ -60,8 +62,8 @@ footer {
 
 header img {
     display: block;
-    width: 100%;
-    height: auto;
+    height:auto;
+    max-width: 100%;
     padding-bottom: 5px;
 }
 
@@ -87,17 +89,17 @@ header img {
     }
 }
 
-    
-nav {
-    display: flex;
-    flex-direction: column;
+.hidden { 
+    display: none !important; 
 }
-nav ul {
-    margin: 2rem;
+
+.hamburguer {
+    display: inline-block;
 }
-nav ul li {
+
+#nav-menu ul li {
     margin: 1rem;
-    list-style-type: none;
+    list-style: none;
 }
     
 header nav ul li a {

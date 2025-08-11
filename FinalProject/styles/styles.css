@@ -110,6 +110,7 @@ header nav ul li a {
 a {
     font-size: large;
     padding: 1rem;
+    text-decoration: none;
 }
     
 .introduction {

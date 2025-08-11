@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alice Candido Martins">
     <meta name="description" content="Wars&Books Home Page | Final Project | WDD231 | Alice Candido Martins">
     <title>Wars & Books | WDD 231 | Alice Candido Martins</title>
-        
+
     <meta property="og:title" content="Wars & Books | Home Page | WDD231 | Alice Candido Martins">
-    <meta property="og:description" content="The final project Wars&Books home page of the course WDD231 of Alice Candido Martins">
+    <meta property="og:description"
+        content="The final project Wars&Books home page of the course WDD231 of Alice Candido Martins">
     <meta property="og:image" content=" ">
     <meta property="og:url" content="https://alicemartins-hue.github.io/wdd231/final/index.html">
 
@@ -16,10 +18,9 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    
+
     <script src="scripts/date.js" defer></script>
     <script src="scripts/nav.js" defer></script>
-    <script src="scripts/books.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,15 +28,18 @@
         href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div id="mobile-logo"></div>
         <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
-        
+
         <nav id="nav-menu" class="hidden" aria-label="navigation">
             <ul>
-                <li><a href="https://alicemartins-hue.github.io/wdd231/FinalProject/index.html" class="ativo">Home</a></li>
-                <li id="left"><a href="https://alicemartins-hue.github.io/wdd231/FinalProject/books.html">Directory</a></li>
+                <li><a href="https://alicemartins-hue.github.io/wdd231/FinalProject/index.html" class="ativo">Home</a>
+                </li>
+                <li id="left"><a href="https://alicemartins-hue.github.io/wdd231/FinalProject/books.html">Directory</a>
+                </li>
                 <li class="space"></li>
                 <li><a href="https://alicemartins-hue.github.io/wdd231/FinalProject/form.html">Join</a></li>
                 <li><a href="https://alicemartins-hue.github.io/wdd231/FinalProject/discover.html">Discover</a></li>
@@ -43,48 +47,41 @@
         </nav>
     </header>
     <main>
-        
+
         <div id="nav-logo"><img src="images/logo-w&b.webp" id="desktop-logo" alt="logo"></div>
         <div class="home">
-            <dialog id="book-details" class="modal hidden"></dialog>
             <div id="spotlight" class="bookweek"></div>
-
-
             <div clas="introduction">
                 <section class="our intro">
                     <h2>Welcome to Wars & Books</h2>
                     <h3>We are a project that blends the fascinating worlds of history and fantasy.</h3>
-                    <h3>Here, you'll explore books that reimagine real wars through the lens of magic, sorrow, and the depth of human
-                    experience.</h3>
+                    <h3>Here, you'll explore books that reimagine real wars through the lens of magic, sorrow, and the depth of
+                        human
+                        experience.</h3>
                 </section>
-
+        
                 <section class="our purpose">
-                    <h2>Our purpose is to connect readers with stories that not only inspire empathy, but also spark curiosity.</h2>
-                    <h3>War is a sensitive topic, especially in literature. It reflects a society, a group of people, and the causes
-                    they fight for. It’s not only about culture, but also about desire and greed.</h3>
+                    <h2>Our purpose is to connect readers with stories that not only inspire empathy, but also spark curiosity.
+                    </h2>
+                    <h3>War is a sensitive topic, especially in literature. It reflects a society, a group of people, and the
+                        causes
+                        they fight for. It’s not only about culture, but also about desire and greed.</h3>
                     <h3>It is about sorrow, sacrifice, and love.</h3>
-                    <h3>We choose books that portray the people, the battles, the sacrifices, and the hunger — and we honor them with
-                    respect.</h3>
+                    <h3>We choose books that portray the people, the battles, the sacrifices, and the hunger — and we honor them
+                        with
+                        respect.</h3>
                 </section>
         
                 <section class="our motivation">
                     <h2>Our Motivation</h2>
                     <h3>For a world where wars exist only in stories</h3>
-                    <h3>We dream of a world where the only battles fought are written in ink — where history’s pain becomes a lesson,
-                    and its courage lives on in the pages we turn.</h3>
+                    <h3>We dream of a world where the only battles fought are written in ink — where history’s pain becomes a
+                        lesson,
+                        and its courage lives on in the pages we turn.</h3>
                     <h2>To forget is to invite the past to return.</h2>
                 </section>
-            </div>    
-        </div>
-        <div id="gridListMenu">
-            <p>Choose how you'd like to view the library:</p>
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
             </div>
-            <article class="grid">
-                <div id="books-container"></div>
-            </article>
-        </div>        
+        </div>
     </main>
 
     <footer>
@@ -106,4 +103,5 @@
     </footer>
     <script src="scripts/script.js" type="module" defer></script>
 </body>
+
 </html>

@@ -96,12 +96,12 @@ function displayCourses(filteredCourses) {
             dialogCardsDescription(course);
         });
         container.appendChild(card);
-    
+
     });
 
     const totalCredits = filteredCourses.reduce((sum, course) => sum + course.credits, 0);
     creditDisplay.textContent = totalCredits;
-    
+
 }
 
 function filterCourses(subject) {
@@ -133,7 +133,7 @@ function dialogCardsDescription(course) {
     <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>   
     `;
     modal.showModal();
-    
+
     closeModal.addEventListener("click", () => {
         modal.close();
     });

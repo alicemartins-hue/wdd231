@@ -20,6 +20,7 @@
 
     nav {
         display: block;
+        grid-column: 1/4;
     }
 
     header{
@@ -27,10 +28,11 @@
     }
 
     .space {
-        width: 140px;
+        max-width: 140px;
+
     }
 
-    .left {
+    #left {
         position: relative;
         right: 30px;
     }
@@ -43,7 +45,7 @@
         gap: 20px;
         padding: 10px;
         padding-top: 2rem;
-        background-color: rgb(0, 0, 0);        
+        background-color: rgb(0, 0, 0);    
     }
 
     #nav-menu ul li a {
@@ -54,7 +56,7 @@
     #nav-logo{
         margin: 0;
         background-image: url("../images/wallpaper-hero3.webp");
-        height: 30vh;
+        height: 35vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -62,22 +64,28 @@
         align-items: center;
         justify-content: center;
         position: relative;
+        display: flex;
+        flex-direction: column;
     }
 
     #nav-logo::before{
         content:"";
         position: absolute;
         inset: 0;
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(30, 18, 1, 0.6);
     }
+
+    
 
 
     #desktop-logo{
         width: 500px;
+        max-width: auto;
         margin: none;
         position: relative;
         z-index: 1;
         bottom: 100px;
+        pointer-events: none;
 
     }
 

@@ -20,7 +20,7 @@
             "genre": "Historical Romance with Time Travel",
             "country": "Scotland",
             "photo": "",
-            "purchase_link": "https://www.amazon.com/s?k=Outlander",
+            "purchase_link": "https://www.amazon.com/Outlander-Diana-Gabaldon/dp/0385319959/ref=sr_1_1?crid=6WOE1OGCJLEG&dib=eyJ2IjoiMSJ9.f0h6YNFdbT7DxdB5Msl9oCM14If8f-my5eYZhhPMbQkOdtsBkOKVtn5GxS9A0A0ibX7FGddCkx8d7cFzZ0NNx0WG7PyMXEbWoYfJPhiYQ5JZSDrNAnW1m8P9v3EmDKGNqGcc0HcqBfNd0Ocitxp9ne-CSE8joOhg4OLWtrn5md1iGeWdk7-ENrnIh0p-hlxLCNxbZVI1DiiC-vuivqWVJ-ZiJYixp_H-Jt7Y6PowO_o.M2DhQ2DN4O2gNv0qDNyDjABbxW-IS0vlXVG8wDZKmgM&dib_tag=se&keywords=Outlander+book&qid=1755009800&sprefix=outlander+book%2Caps%2C282&sr=8-1",
             "synopsis": "'Outlander' by Diana Gabaldon is a historical romance with time travel that unfolds against the backdrop of Jacobite Rising (1745). Set in Scotland, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
             "description": ""
         },
@@ -44,7 +44,7 @@
             "genre": "Historical Fantasy",
             "country": "Europe",
             "photo": "",
-            "purchase_link": "https://www.amazon.com/s?k=Jonathan+Strange+&+Mr+Norrell",
+            "purchase_link": "https://www.amazon.com/Jonathan-Strange-Mr-Norrell-Novel/dp/1635576725/ref=sr_1_1?dib=eyJ2IjoiMSJ9.KCPa7ByYbQtfBffLYh0KlnpPAZBknmF3W7PfawH2S5SROoAr6c3WRZcDwcpYX4lXNLsX9TcQo1N_NMi1wla2p72ONAMntd6grVW0bnLoSquWXGUt2ETY9xW0hxFS-w6Pe7AZZHQbME3hQ4kedNgKoD07RZI0p0UZyUVUB7dYoyG_qgysLUQ89qojDeuSqhYtB0KXsZtYqXWyMyoijaGeSBYf8VE-TE4Gw-ArYJCS9qo.g91VqRzh-GslsNKYVevnbpRoepvJAvL8ebHpq8VFr3E&dib_tag=se&keywords=Jonathan+Strange&qid=1755009970&sr=8-1",
             "synopsis": "'Jonathan Strange & Mr Norrell' by Susanna Clarke is a historical fantasy that unfolds against the backdrop of Napoleonic Wars. Set in Europe, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
             "description": ""
         },
@@ -142,18 +142,6 @@
             "photo": "",
             "purchase_link": "https://www.amazon.com/s?k=The+Winter+King",
             "synopsis": "'The Winter King' by Bernard Cornwell is a historical novel with arthurian myths that unfolds against the backdrop of Saxon invasions of Britain. Set in Britain, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": ""
-        },
-        {
-            "title": "A Farewell to Arms",
-            "author": "Ernest Hemingway",
-            "war_conflict": "World War I (Italian Front)",
-            "war_period": "1914–1918",
-            "genre": "Autobiographical Novel",
-            "country": "Italy",
-            "photo": "",
-            "purchase_link": "https://www.amazon.com/s?k=A+Farewell+to+Arms",
-            "synopsis": "'A Farewell to Arms' by Ernest Hemingway is a autobiographical novel that unfolds against the backdrop of World War I (Italian Front). Set in Italy, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
             "description": ""
         },
         {
@@ -374,18 +362,6 @@
             "description": ""
         },
         {
-            "title": "A Marcha",
-            "author": "José de Alencar",
-            "war_conflict": "Paraguayan War",
-            "war_period": "1864–1870",
-            "genre": "Brazilian Historical Novel",
-            "country": "Brazil/Paraguay",
-            "photo": "",
-            "purchase_link": "https://www.amazon.com.br/s?k=A+Marcha",
-            "synopsis": "'A Marcha' by José de Alencar is a brazilian historical novel that unfolds against the backdrop of Paraguayan War. Set in Brazil/Paraguay, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": ""
-        },
-        {
             "title": "O Louco do Cati",
             "author": "Dyonélio Machado",
             "war_conflict": "Brazilian Revolution of 1930",
@@ -396,66 +372,5 @@
             "purchase_link": "https://www.amazon.com.br/s?k=O+Louco+do+Cati",
             "synopsis": "'O Louco do Cati' by Dyonélio Machado is a historical novel that unfolds against the backdrop of Brazilian Revolution of 1930. Set in Brazil, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
             "description": ""
-        },
-        {
-            "title": "Histórias de um Brasil em Guerra",
-            "author": "Edmar Morel",
-            "war_conflict": "World War II (Brazilian perspective)",
-            "war_period": "1939–1945",
-            "genre": "Non-fiction",
-            "country": "Brazil",
-            "photo": "",
-            "purchase_link": "https://www.amazon.com.br/s?k=Histórias+de+um+Brasil+em+Guerra",
-            "synopsis": "'Histórias de um Brasil em Guerra' by Edmar Morel is a non-fiction that unfolds against the backdrop of World War II (Brazilian perspective). Set in Brazil, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": ""
-        },
-        {
-            "title": "Monte Castelo",
-            "author": "Luiz Antonio de Assis Brasil",
-            "war_conflict": "Italian Campaign (Brazilian Expeditionary Force)",
-            "war_period": "1944–1945",
-            "genre": "Historical Novel",
-            "country": "Italy",
-            "photo": "",
-            "purchase_link": "https://www.amazon.com/s?k=Monte+Castelo",
-            "synopsis": "'Monte Castelo' by Luiz Antonio de Assis Brasil is a historical novel that unfolds against the backdrop of Italian Campaign (Brazilian Expeditionary Force). Set in Italy, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": ""
-        },
-        {
-            "title": "João sem Terra",
-            "author": "José Lins do Rego",
-            "war_conflict": "Brazilian Revolution of 1930",
-            "war_period": "1930",
-            "genre": "Historical Novel",
-            "country": "Brazil",
-            "photo": "",
-            "purchase_link": "https://www.amazon.com.br/s?k=João+sem+Terra",
-            "synopsis": "'João sem Terra' by José Lins do Rego is a historical novel that unfolds against the backdrop of Brazilian Revolution of 1930. Set in Brazil, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": ""
-        },
-        {
-            "title": "Os Voluntários",
-            "author": "Dalcídio Jurandir",
-            "war_conflict": "Paraguayan War",
-            "war_period": "1864–1870",
-            "genre": "Historical Novel",
-            "country": "Brazil/Paraguay",
-            "photo": "",
-            "purchase_link": "https://www.amazon.com.br/s?k=Os+Voluntários",
-            "synopsis": "'Os Voluntários' by Dalcídio Jurandir is a historical novel that unfolds against the backdrop of Paraguayan War. Set in Brazil/Paraguay, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": ""
-        },
-        {
-            "title": "FEB – A Força Expedicionária Brasileira na Itália",
-            "author": "João Barone",
-            "war_conflict": "World War II (Italian Campaign)",
-            "war_period": "1944–1945",
-            "genre": "Non-fiction",
-            "country": "Italy",
-            "photo": "",
-            "purchase_link": "https://www.amazon.com/s?k=FEB+–+A+Força+Expedicionária+Brasileira+na+Itália",
-            "synopsis": "'FEB – A Força Expedicionária Brasileira na Itália' by João Barone is a non-fiction that unfolds against the backdrop of World War II (Italian Campaign). Set in Italy, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": ""
         }
-
     ]

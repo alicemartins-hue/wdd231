@@ -48,7 +48,70 @@
     </header>
     <main>
         <div id="nav-logo"><img src="images/logo-w&b.webp" id="desktop-logo" alt="logo"></div>
-        <h2>something</h2>
+        <div class="formpage">
+            <form class="form" method="get" action="thankyou.html">
+                <h1>Make a book suggestion</h1>
+                              
+                <fieldset>
+                
+                    <legend>Book Information</legend>
+                    <label title="Enter your recomendation book title">
+                        Title:
+                        <input type="text" required name="bookTitle" title="Book Title" autocomplete="name" placeholder="The Poppy War">
+                    </label>
+                    <label title="Enter the author name">
+                        Author:
+                        <input type="text" required name="author" autocomplete="name">
+                    </label>
+                
+                    <label title="Choose a emotion level">
+                        Emotion impact level:
+                        <select name="EmotionLevel" title="Emotion Level">
+                            <option value="" disabled selected>How the book make you feel...</option>
+                            <option value="Good">Good</option>
+                            <option value="Sad">Sad</option>
+                            <option value="Surprise">Surprise</option>
+                            <option value="Diamond">All of the above</option>
+                        </select>
+                    </label>
+                
+                    <label title="Book Description">
+                        Book Description:
+                        <textarea title='Book Description' name="BookDescription" rows="4" cols="30"></textarea>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Requester Information</legend>
+                    <label title="Enter your first name">
+                        First Name:
+                        <input type="text" name="firstName" required title="First Name" autocomplete="given-name">
+                    </label>
+                
+                    <label title="Enter your last name">
+                        Last Name:
+                        <input type="text" name="lastName" required title="Last Name" autocomplete="family-name">
+                    </label>
+                
+                    <label title="Enter your email">
+                        Email:
+                        <input type="email" required name="email" title="Your email" autocomplete="email" placeholder="email@gmail.com">
+                    </label>
+                
+                    <label title="Enter your phone number">
+                        Phone Number:
+                        <input type="tel" required name="mobile" title="Your phone number" autocomplete="tel" placeholder="+351">
+                    </label>
+                </fieldset>
+                
+                
+                <input type="hidden" id="timestamp" name="timestamp">
+                
+                <div class="submitbtn">
+                    <input type="submit" value="Join Us">
+                </div>
+                
+            </form>
+        </div>
     </main>
     <footer>
         <div class="social">

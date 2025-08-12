@@ -121,8 +121,7 @@ a {
 
 
 .formpage {
-    padding: 10px;
-    background-color: #000000;
+    padding: 3rem;
 
 
 }
@@ -146,7 +145,7 @@ a {
 
 .form fieldset{
     margin: 1rem 2rem;
-    border: transparent;
+    border: 1px solid #5c000064;
 }
 .form label{
     padding: .4rem 1rem;

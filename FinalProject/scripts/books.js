@@ -20,7 +20,7 @@ function displayBooks(books) {
 
         card.innerHTML = `
             <h2>${book.title}</h2>
-            <a href="${book.purchase_link}" target="_blank"><img class="cover" src="images/capas/${book.photo}.webp" alt="Logo of the book ${book.title} by ${book.author}"></a>
+            <a href="${book.purchase_link}" target="_blank"><img class="cover" rel='preload' src="images/capas/${book.photo}.webp" alt="Logo of the book ${book.title} by ${book.author}"  width='350' height='150'></a>
             <p><strong>War Conflict</strong><br> ${book.war_conflict}</p>
             <p><strong>Genre</strong><br> ${book.genre}</p>
             <p><strong>Country</strong><br> ${book.country}</p>

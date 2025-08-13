@@ -20,7 +20,7 @@ function renderSpotlight(books) {
 
     card.innerHTML = `
     <h4>${book.title}</h4>
-    <img class='cover' src='${book.photo}' alt='Cover of ${book.title}'>
+    <img class='cover' src='${book.photo}' alt='Cover of ${book.title}' loading='lazy'>
     <p><strong>Synopsis:</strong> ${book.synopsis}</p>
     `;
 

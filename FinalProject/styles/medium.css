@@ -86,8 +86,6 @@
 
     #desktop-logo{
         width: 500px;
-        max-width: auto;
-        margin: none;
         position: relative;
         z-index: 1;
         bottom: 100px;

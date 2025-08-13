@@ -21,17 +21,19 @@ h2, h1, footer{
 }
 
 footer {
-    background-color: #534b4f37;
+    background-color: black;
+    color: white;
 }
 
 .final{
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .social {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    margin: 0;
 }
 
 .social img {
@@ -59,7 +61,9 @@ footer {
             align-items: end;
         }
 }
-
+header{ 
+    background-color: grey;
+}
 header img {
     display: block;
     height:auto;
@@ -116,7 +120,12 @@ a {
     padding: 1rem;
 }
 .our {
-    padding: 2rem;
+    padding: 1rem 2rem;
+}
+
+.impact{
+    text-align: center;
+    padding: 2rem 2rem 6rem 2rem;
 }
 
 
@@ -233,3 +242,32 @@ textarea {
     padding: .5rem .8rem;
 }
 
+.aboutfinal{
+    display: none;
+}
+
+#thankpage {
+    padding: 1rem 3rem;
+}
+
+.formbtn{
+    justify-self: center;
+}
+
+.formbtn button{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    background-color: var(--font-color);
+    color: white;
+    cursor: pointer;
+}
+
+.formbtn button:hover{
+    border: 2px solid var(--destaque-color);
+    animation: bookbutton 1.5s infinite ease-in-out;
+}
+
+.formbtn button:active{
+    transform: scale(0.95);
+}

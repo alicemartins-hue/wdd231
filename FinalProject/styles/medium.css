@@ -6,10 +6,6 @@
         grid-template-rows: 1fr auto;
     }
 
-    .ativo {
-        border-bottom: 3px solid var(--destaque-color);
-    }
-
     .hamburguer {
         display: none;
     }
@@ -107,7 +103,6 @@
         grid-column-end: 3;
         justify-self: center;
         background-color: aliceblue;
-        border-radius: 4px;
         box-shadow: 0 0 30px 40px #410000;
 
     }

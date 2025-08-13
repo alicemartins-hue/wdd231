@@ -3,9 +3,9 @@ const list = 'data/books.json';
 async function getBooks() {
     try {
         const response = await fetch(list);
-        const data = await response.json();
+        const books = await response.json();
         displayBooks(books);
-        renderSpotlights(books);
+        renderSpotlight(books);
     } catch (error) {
         console.error('Error getting data', error);
     }
@@ -21,7 +21,7 @@ function displayBooks(books) {
 
         card.innerHTML = `
             <h3>${book.title}</h3>
-            <img src="${book.photo}" alt="Logo of the book ${book.title} by ${book.author}">
+            <img src="images/capas/${book.photo}.webp" alt="Logo of the book ${book.title} by ${book.author}">
             <p><strong>War Conflict:</strong><br> ${book.war_conflict}</p>
             <p><strong>War Period:</strong><br> ${book.war_period}</p>
             <p><strong>Genre:</strong><br> ${book.genre}</p>

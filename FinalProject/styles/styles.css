@@ -76,6 +76,8 @@ header img {
     border: none;
     cursor: pointer;
     font-size: 2rem;
+    display: inline-block;
+    align-self: center;
 }
 
 .hamburguer::before {
@@ -97,23 +99,28 @@ header img {
     display: none !important; 
 }
 
-.hamburguer {
-    display: inline-block;
+header nav ul{
+    padding: 2rem;
+    background-color: black;
+    border: 1px dotted grey;
+
 }
 
 #nav-menu ul li {
     margin: 1rem;
     list-style: none;
 }
-    
-header nav ul li a {
-    text-decoration: none;
-}
 
 a {
     font-size: large;
     padding: 1rem;
     text-decoration: none;
+    color: var(--subtom);
+    
+}
+
+.ativo{
+    text-decoration: underline;
 }
     
 .introduction {

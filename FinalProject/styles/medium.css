@@ -10,7 +10,7 @@
         display: none;
     }
 
-    #nav-menu {
+    #nav-menu{
         display: block !important;
     }
 
@@ -47,6 +47,14 @@
     #nav-menu ul li a {
         color: rgb(218, 199, 176);
         font-size: medium;
+        grid-column: 1/4;
+    }
+
+    #bookshelfheader{
+        grid-column: 1/4;
+        background-image: none;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     #nav-logo{
@@ -63,8 +71,10 @@
         display: flex;
         flex-direction: column;
     }
+    
 
-    #nav-logo::before{
+    #nav-logo::before
+        {
         content:"";
         position: absolute;
         inset: 0;
@@ -107,4 +117,55 @@
 
     }
 
+
+    .library{
+        background-color: antiquewhite;
+    }
+
+    .library h3{
+        color: black;
+    }
+
+
+    #books-container{
+        justify-self: center;
+    }
+
+    .grid #books-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: auto;
+    }
+
+    .grid .book-card {
+        margin: 1rem;
+        max-width: 16rem;
+    }
+
+    .grid .book-card img {
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    filter: saturate(50%);
+    margin: 1rem;
+    max-width: 5rem;
+    }
+
+    #gridListMenu button {
+        padding: .5rem 2rem;
+         margin: 10px;
+        border-radius: 8px;
+        font-size: large;
+        cursor: pointer;
+        border: 2px solid var(--destaque-color);
+        color: var(--destaque-color);
+        background-color: blanchedalmond;
+    }
+
+    .list .book-card {
+        color: var(--destaque-color);
+    }
+    .list #books-container h2{
+        color: var(--destaque-color);
+    }
 }

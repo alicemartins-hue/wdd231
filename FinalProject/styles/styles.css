@@ -64,6 +64,7 @@ footer {
 header{ 
     background-color: grey;
 }
+
 header img {
     display: block;
     height:auto;
@@ -276,4 +277,111 @@ textarea {
 
 .formbtn button:active{
     transform: scale(0.95);
+}
+
+
+#bookshelfheader {
+    background-image: url("../images/wallpaper-hero4.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     position: relative;}
+
+
+
+.library{
+    background-color: black;
+    padding-top: 1rem;
+}
+
+#gridListMenu {
+    text-align: center;
+    justify-self: center;
+    color: var(--subtom);
+}
+
+#gridListMenu button{
+    padding: 1rem 2rem;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: large;
+    cursor: pointer;
+    border: 2px solid var(--destaque-color);
+    color: var(--destaque-color);
+}
+
+#gridListMenu button:hover{
+    animation: bookbutton 1.5s infinite ease-in-out;
+}
+
+.grid #books-container h2{
+    color: white;
+}
+
+.list #books-container h2 {
+    color: white;
+}
+
+.grid #books-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.grid .book-card {
+    border: 2px solid #534b4f37;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem 3rem;
+    border-radius: 16px;
+    background-color: var(--destaque-color);
+    color: white;
+}
+
+.grid .book-card img{
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    filter:saturate(50%);
+    margin: 1rem;
+}
+
+.grid .book-card a{
+    color: rgb(32, 32, 111);
+    font-size: small;
+}
+
+
+.list .book-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    font-size: smaller;
+    color: white;
+    margin: 1rem 3rem;
+}
+
+.list .book-card img {
+    max-width: 4rem;
+
+}
+
+.list .book-card p {
+    margin: 15px;
+}
+
+.list a {
+    text-decoration: none;
+    color: var(--color-principal)
+}
+
+.list h2 {
+    display: block;
+    width: 110px;
 }

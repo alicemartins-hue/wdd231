@@ -50,13 +50,6 @@
         grid-column: 1/4;
     }
 
-    #bookshelfheader{
-        grid-column: 1/4;
-        background-image: none;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
     #nav-logo{
         margin: 0;
         background-image: url("../images/wallpaper-hero3.webp");

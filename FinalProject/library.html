@@ -21,9 +21,7 @@
 
     <script src="scripts/date.js" defer></script>
     <script src="scripts/nav.js" defer></script>
-    <script src="scripts/books.js" defer></script>
-
-    
+    <script src="scripts/books.js" defer></script>    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,27 +32,26 @@
 
 <body>
     <header>
-        <div id="bookshelfheader">
-            <div id="mobile-logo"></div>
-            <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
+        <div id="mobile-logo"></div>
+        <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
             
-            <nav id="nav-menu" class="hidden" aria-label="navigation">
-                <ul>
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li id="left"><a href="library.html"
-                            class="ativo">Bookshelf</a>
-                    </li>
-                    <li class="space"></li>
-                    <li><a href="form.html">Join</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav id="nav-menu" class="hidden" aria-label="navigation">
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li id="left"><a href="library.html"
+                        class="ativo">Bookshelf</a>
+                </li>
+                <li class="space"></li>
+                <li><a href="form.html">Join</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div id="nav-logo"><img src="images/logo-w&b.webp" id="desktop-logo" alt="logo"></div>
         <div class="library">
+            <dialog id="book-details"></dialog>
             <h1>Bookshelf</h1>
             <div id="gridListMenu">
                 <h3>Choose how you'd like to view the library:</h3>
@@ -65,6 +62,7 @@
                 <div id="books-container"></div>
             </article>
         </div>
+        
     </main>
     <footer>
         <div class="social">

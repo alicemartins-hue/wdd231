@@ -10,12 +10,12 @@
             "photo": "poppywar",
             "purchase_link": "https://www.amazon.com/s?k=The+Poppy+War",
             "synopsis": "'The Poppy War' by R.F. Kuang is a military fantasy that unfolds against the backdrop of Second Sino-Japanese War and Chinese Civil War. Set in China, it explores the human spirit amid turmoil — weaving themes of sacrifice, courage, and the enduring impact of war on individuals and societies.",
-            "description": "In a China torn apart by the Second Sino-Japanese War and the Chinese Civil War, a war orphan named Rin escapes a life of poverty when she earns a place at the prestigious Sinegard Academy. There, she discovers an aptitude for the nearly forgotten art of shamanism and learns that her powers may be the key to saving her people—or destroying them. As political tensions escalate into brutal conflict, Rin must decide how far she is willing to go, and what she is willing to sacrifice, to achieve victory."
+            "description": "In a empire torn apart by the Second Poppy War, a war orphan named Rin escapes a life of poverty when she earns a place at the prestigious Sinegard Academy. There, she discovers an aptitude for the nearly forgotten art of shamanism and learns that her powers may be the key to saving her people—or destroying them. As political tensions escalate into brutal conflict, Rin must decide how far she is willing to go, and what she is willing to sacrifice, to achieve victory."
         },
         {
             "title": "Outlander",
             "author": "Diana Gabaldon",
-            "war_conflict": "Jacobite Rising (1745)",
+            "war_conflict": "Jacobite Rising",
             "war_period": "1745–1746",
             "genre": "Historical Romance with Time Travel",
             "country": "Scotland",
@@ -63,7 +63,7 @@
         {
             "title": "A Song of Ice and Fire",
             "author": "George R.R. Martin",
-            "war_conflict": "Wars of the Roses (1455–1487)",
+            "war_conflict": "Wars of the Roses",
             "war_period": "1455–1487",
             "genre": "Epic Fantasy",
             "country": "England",

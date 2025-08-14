@@ -34,25 +34,4 @@ function renderSpotlight(books) {
 
 }
 
-const modal = document.getElementById('book-details');
-function dialogBooksDescription(book) {
-    modal.innerHTML = '';
-    modal.innerHTML = `
-    <button id="closeModal" aria-label="Close">❌</button>
-    <h2><a href="${book.purchase_link}" target="_blank"> ${book.title}</a></h2>
-    <h3><strong>Author</strong> ${book.author}</h3>
-    <p><strong>Genre</strong>: ${book.genre}</p>
-    <h4>Description</h4>
-    <p>${book.description}</p> 
-    <h4>The book was inspired by ${book.war_conflict}</h4>
-    <h4>That took place during the period: ${book.war_period} in ${book.country}</h3>
-      
-    `;
-    modal.showModal();
-
-    closeModal.addEventListener("click", () => {
-        modal.close();
-    });
-}
-
 getBooks();

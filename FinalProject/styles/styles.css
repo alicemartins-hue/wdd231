@@ -397,11 +397,11 @@ textarea {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#book-details a{
+#book-details button{
     display: flex;
     justify-content: center;
 }
-#book-details a button, .callbox a button{
+#book-details button, .callbox button{ 
     color: black;
     font-size: small;
     border-radius: 1rem;
@@ -412,14 +412,13 @@ textarea {
     cursor:pointer;
     
 }
-#book-details a button:hover, .callbox a button:hover{
+#book-details button:hover, .callbox button:hover{
     box-shadow: none;
     background-image: linear-gradient(white, #5d5c5c68);
     animation: bookbutton 1.5s infinite ease-in-out;
 }
 
 .homepage {
-    background-color: rgba(255, 235, 205, 0.401);
     padding-top: 2rem;
 }
 
@@ -443,7 +442,7 @@ textarea {
     box-shadow: 6px 7px 5px 0px rgba(193, 187, 187, 0.755);
 }
 
-.homepage #bookweek a button{
+.homepage #bookweek button{
     margin-top: 2rem;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -510,4 +509,8 @@ textarea {
 
 .library h1{
     color: var(--yellow);
+}
+
+button a{
+    color: black;
 }

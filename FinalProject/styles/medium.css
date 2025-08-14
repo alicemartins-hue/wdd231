@@ -160,7 +160,7 @@
     }
 
     #bookweek{
-        margin: 5rem;
+        margin: 1rem 25rem;
     }
 
     .img img{
@@ -183,6 +183,10 @@
         max-width: 15rem;
     }
     
+    #spotlight{
+        max-width: 15rem;
+    }
+
     .library h1 {
             color: var(--destaque-color);
     }

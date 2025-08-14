@@ -50,7 +50,7 @@
         grid-column: 1/4;
     }
 
-    #nav-logo{
+    #nav-logo, #nav-other{
         margin: 0;
         background-image: url("../images/wallpaper-hero3.webp");
         height: 35vh;
@@ -65,7 +65,7 @@
     }
     
 
-    #nav-logo::before
+    #nav-logo::before, #nav-other::before
         {
         content:"";
         position: absolute;
@@ -76,7 +76,7 @@
     
 
 
-    #desktop-logo{
+    #desktop-logo, #desktop-other{
         width: 500px;
         position: relative;
         z-index: 1;

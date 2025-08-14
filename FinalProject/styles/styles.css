@@ -518,3 +518,8 @@ textarea {
 button a{
     color: black;
 }
+
+#attributions a{
+    color: white;
+    margin: none;
+}

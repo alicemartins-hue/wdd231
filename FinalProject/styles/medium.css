@@ -61,7 +61,6 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        display: flex;
         flex-direction: column;
     }
     
@@ -159,4 +158,9 @@
     .list #books-container h2{
         color: var(--destaque-color);
     }
+
+    #bookweek{
+        margin: 5rem;
+    }
+
 }

@@ -20,7 +20,7 @@ function renderSpotlight(books) {
 
     card.innerHTML = `
     <h4>${book.title}</h4>
-    <img class='cover' src='${book.photo}' alt='Cover of ${book.title}' loading='lazy'>
+    <img class='cover' src='images/capas/${book.photo}.webp' alt='Cover of ${book.title}' loading="eager">
     <p><strong>Synopsis:</strong> ${book.synopsis}</p>
     `;
 
@@ -33,5 +33,28 @@ function renderSpotlight(books) {
     container.appendChild(card);
 
 }
+
+
+const modal = document.getElementById('book-details');
+function dialogBooksDescription(book) {
+    modal.innerHTML = '';
+    modal.innerHTML = `
+    <button id="closeModal" aria-label="Close">❌</button>
+    <h2><a href="${book.purchase_link}" target="_blank"> ${book.title}</a></h2>
+    <h3>Author ${book.author}</h3>
+    <p><strong>Description</strong></p>
+    <p>${book.description}</p>
+    <h4>The book was inspired by ${book.war_conflict}</h4>
+    <h4>The war took place during the period: ${book.war_period} in ${book.country}</h3>   
+    <a href="${book.purchase_link}" target="_blank"><button>Purchase Here</button></a>
+    `;
+    modal.showModal();
+
+    const closeBtn = modal.querySelector('#closeModal');
+    closeModal.addEventListener("click", () => {
+        modal.close();
+    });
+}
+
 
 getBooks();

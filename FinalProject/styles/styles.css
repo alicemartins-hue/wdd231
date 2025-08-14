@@ -3,6 +3,7 @@
     --font-color: #534B4F;
     --background-footer: #534b4f37;
     --subtom: rgb(218, 199, 176);
+    --yellow: rgba(255, 196, 0, 0.952);
 }
 
 
@@ -507,3 +508,6 @@ textarea {
     animation: bookbutton 1.5s infinite ease-in-out ;
 }
 
+.library h1{
+    color: var(--yellow) ;
+}

@@ -496,3 +496,14 @@ textarea {
     padding-bottom: 1rem;
 
 }
+
+.book-card img {
+    aspect-ratio: 2 / 3;
+    width: 100%;
+    height: auto;
+}
+
+#spotlight img:hover{
+    animation: bookbutton 1.5s infinite ease-in-out ;
+}
+

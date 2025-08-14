@@ -175,4 +175,13 @@
         justify-self: center;
     }
 
+    #spotlight img{
+        border-radius: 6px;
+        cursor: pointer;
+        filter: saturate(50%);
+        margin: 1rem;
+        max-width: 15rem;
+    }
+
+
 }

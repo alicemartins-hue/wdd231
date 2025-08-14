@@ -401,7 +401,7 @@ textarea {
     display: flex;
     justify-content: center;
 }
-#book-details button, .callbox button{ 
+#spotlight .book-card button, .callbox button{ 
     color: black;
     font-size: small;
     border-radius: 1rem;
@@ -442,7 +442,7 @@ textarea {
     box-shadow: 6px 7px 5px 0px rgba(193, 187, 187, 0.755);
 }
 
-.homepage #bookweek button{
+.homepage #bookweek .piedade button{
     margin-top: 2rem;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -501,6 +501,10 @@ textarea {
     aspect-ratio: 2 / 3;
     width: 100%;
     height: auto;
+}
+
+#closeModal{
+    background-color: white;
 }
 
 #spotlight img:hover{

@@ -58,6 +58,8 @@ A multi-page project developed incrementally throughout the course, focused on:
 - responsive design
 - dynamic frontend behavior using JavaScript
 
+🔗 https://alicemartins-hue.github.io/wdd231/chamber/index.html
+
 ---
 
 ### 📁 FinalProject
